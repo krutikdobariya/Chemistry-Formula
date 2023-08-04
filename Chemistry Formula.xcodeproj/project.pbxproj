@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143C6A69F6F6732A2A8DD101 /* Pods_Chemistry_FormulaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B3C96D870DF7389EFD3F8C /* Pods_Chemistry_FormulaTests.framework */; };
+		15144DF229C733EF00D363C5 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15144DF129C733EF00D363C5 /* Description.swift */; };
+		15144DF529C829A400D363C5 /* DescriptionDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15144DF429C829A400D363C5 /* DescriptionDAL.swift */; };
+		15144DFF29C8B65A00D363C5 /* FavouritList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15144DFE29C8B65A00D363C5 /* FavouritList.swift */; };
+		15144E0329C8B69300D363C5 /* FavouritCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15144E0229C8B69300D363C5 /* FavouritCell.swift */; };
+		15144E0529C8B81100D363C5 /* MolecularWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15144E0429C8B81100D363C5 /* MolecularWeight.swift */; };
+		15144E0729C8B82900D363C5 /* GasLawDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15144E0629C8B82900D363C5 /* GasLawDesc.swift */; };
+		15144E0929C8B85F00D363C5 /* QuickReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15144E0829C8B85F00D363C5 /* QuickReference.swift */; };
+		15240FB829CA142E002C66AE /* ConceptDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15240FB729CA142E002C66AE /* ConceptDesc.swift */; };
 		155B951D29AE5507002C064C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B951C29AE5507002C064C /* AppDelegate.swift */; };
 		155B951F29AE5507002C064C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B951E29AE5507002C064C /* SceneDelegate.swift */; };
 		155B952129AE5507002C064C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B952029AE5507002C064C /* ViewController.swift */; };
@@ -16,6 +25,27 @@
 		155B953429AE550A002C064C /* Chemistry_FormulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B953329AE550A002C064C /* Chemistry_FormulaTests.swift */; };
 		155B953E29AE550A002C064C /* Chemistry_FormulaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B953D29AE550A002C064C /* Chemistry_FormulaUITests.swift */; };
 		155B954029AE550A002C064C /* Chemistry_FormulaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B953F29AE550A002C064C /* Chemistry_FormulaUITestsLaunchTests.swift */; };
+		15BD7A8129B97BF000C3BBD7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD7A8029B97BF000C3BBD7 /* TableViewCell.swift */; };
+		15BD7A8329B99A7300C3BBD7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD7A8229B99A7300C3BBD7 /* CollectionViewCell.swift */; };
+		15BD7A8729B99B8800C3BBD7 /* MainDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD7A8629B99B8800C3BBD7 /* MainDAL.swift */; };
+		15E8E8AA29CB1F520090DF88 /* FavouritDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E8E8A929CB1F520090DF88 /* FavouritDAL.swift */; };
+		15E9761229BADAA70027BF91 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E9761129BADAA70027BF91 /* Utility.swift */; };
+		15E9761629BAF6A30027BF91 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E9761529BAF6A30027BF91 /* Topic.swift */; };
+		15E9761B29BB33260027BF91 /* Formula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E9761A29BB33260027BF91 /* Formula.swift */; };
+		15E9761D29BB334C0027BF91 /* FormulaDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E9761C29BB334C0027BF91 /* FormulaDAL.swift */; };
+		15E9761F29BB33730027BF91 /* FormulaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E9761E29BB33730027BF91 /* FormulaList.swift */; };
+		1877CB3229E0878500C8C79D /* MolecularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877CB3129E0878500C8C79D /* MolecularCell.swift */; };
+		1877CBB229E1190D00C8C79D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CBA729E1190C00C8C79D /* FMDatabaseAdditions.m */; };
+		1877CBB329E1190D00C8C79D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CBAC29E1190C00C8C79D /* FMResultSet.m */; };
+		1877CBB429E1190D00C8C79D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CBAF29E1190D00C8C79D /* FMDatabaseQueue.m */; };
+		1877CBB529E1190D00C8C79D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CBB029E1190D00C8C79D /* FMDatabase.m */; };
+		1877CBB629E1190D00C8C79D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CBB129E1190D00C8C79D /* FMDatabasePool.m */; };
+		1877CBBA29E11ED100C8C79D /* ChemistryFormula.db in Resources */ = {isa = PBXBuildFile; fileRef = 1877CBB929E11ED100C8C79D /* ChemistryFormula.db */; };
+		18D080FB29E2D32B00686E92 /* Atom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D080FA29E2D32B00686E92 /* Atom.swift */; };
+		18D080FD29EAA07200686E92 /* PopUpViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D080FC29EAA07200686E92 /* PopUpViewCell.swift */; };
+		18D0810129EAABB700686E92 /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0810029EAABB600686E92 /* DeveloperViewController.swift */; };
+		6702532BF047D2AA98AA27CB /* Pods_Chemistry_Formula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4586D5E052675D79B770D0 /* Pods_Chemistry_Formula.framework */; };
+		6A430A174C18417CAAAF0231 /* Pods_Chemistry_Formula_Chemistry_FormulaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2277BEE96CCA8D740C1F0E /* Pods_Chemistry_Formula_Chemistry_FormulaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +66,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		155B951929AE5507002C064C /* Chemistry Formula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chemistry Formula.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15144DEE29C7312300D363C5 /* Chemistry Formula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chemistry Formula.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15144DEF29C7325800D363C5 /* Chemistry FormulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chemistry FormulaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15144DF029C7325800D363C5 /* Chemistry FormulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chemistry FormulaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15144DF129C733EF00D363C5 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		15144DF429C829A400D363C5 /* DescriptionDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionDAL.swift; sourceTree = "<group>"; };
+		15144DFE29C8B65A00D363C5 /* FavouritList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritList.swift; sourceTree = "<group>"; };
+		15144E0229C8B69300D363C5 /* FavouritCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritCell.swift; sourceTree = "<group>"; };
+		15144E0429C8B81100D363C5 /* MolecularWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolecularWeight.swift; sourceTree = "<group>"; };
+		15144E0629C8B82900D363C5 /* GasLawDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasLawDesc.swift; sourceTree = "<group>"; };
+		15144E0829C8B85F00D363C5 /* QuickReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReference.swift; sourceTree = "<group>"; };
+		15240FB729CA142E002C66AE /* ConceptDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptDesc.swift; sourceTree = "<group>"; };
 		155B951C29AE5507002C064C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		155B951E29AE5507002C064C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		155B952029AE5507002C064C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +84,44 @@
 		155B952529AE5509002C064C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155B952829AE5509002C064C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		155B952A29AE5509002C064C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		155B952F29AE550A002C064C /* Chemistry FormulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chemistry FormulaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		155B953329AE550A002C064C /* Chemistry_FormulaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chemistry_FormulaTests.swift; sourceTree = "<group>"; };
-		155B953929AE550A002C064C /* Chemistry FormulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chemistry FormulaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		155B953D29AE550A002C064C /* Chemistry_FormulaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chemistry_FormulaUITests.swift; sourceTree = "<group>"; };
 		155B953F29AE550A002C064C /* Chemistry_FormulaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chemistry_FormulaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15BD7A8029B97BF000C3BBD7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		15BD7A8229B99A7300C3BBD7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		15BD7A8629B99B8800C3BBD7 /* MainDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDAL.swift; sourceTree = "<group>"; };
+		15E8E8A929CB1F520090DF88 /* FavouritDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritDAL.swift; sourceTree = "<group>"; };
+		15E9761129BADAA70027BF91 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		15E9761529BAF6A30027BF91 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		15E9761A29BB33260027BF91 /* Formula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formula.swift; sourceTree = "<group>"; };
+		15E9761C29BB334C0027BF91 /* FormulaDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaDAL.swift; sourceTree = "<group>"; };
+		15E9761E29BB33730027BF91 /* FormulaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaList.swift; sourceTree = "<group>"; };
+		1877CB3129E0878500C8C79D /* MolecularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolecularCell.swift; sourceTree = "<group>"; };
+		1877CBA629E1190C00C8C79D /* Chemistry Formula-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chemistry Formula-Bridging-Header.h"; sourceTree = "<group>"; };
+		1877CBA729E1190C00C8C79D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		1877CBA829E1190C00C8C79D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		1877CBA929E1190C00C8C79D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = "<group>"; };
+		1877CBAA29E1190C00C8C79D /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDB.h"; sourceTree = "<group>"; };
+		1877CBAB29E1190C00C8C79D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
+		1877CBAC29E1190C00C8C79D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
+		1877CBAD29E1190D00C8C79D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabasePool.h"; sourceTree = "<group>"; };
+		1877CBAE29E1190D00C8C79D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		1877CBAF29E1190D00C8C79D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		1877CBB029E1190D00C8C79D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
+		1877CBB129E1190D00C8C79D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../../../../Downloads/fmdb-master/src/fmdb/FMDatabasePool.m"; sourceTree = "<group>"; };
+		1877CBB929E11ED100C8C79D /* ChemistryFormula.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChemistryFormula.db; sourceTree = "<group>"; };
+		18D080FA29E2D32B00686E92 /* Atom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atom.swift; sourceTree = "<group>"; };
+		18D080FC29EAA07200686E92 /* PopUpViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewCell.swift; sourceTree = "<group>"; };
+		18D0810029EAABB600686E92 /* DeveloperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
+		1E4586D5E052675D79B770D0 /* Pods_Chemistry_Formula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chemistry_Formula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B3C96D870DF7389EFD3F8C /* Pods_Chemistry_FormulaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chemistry_FormulaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2277BEE96CCA8D740C1F0E /* Pods_Chemistry_Formula_Chemistry_FormulaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chemistry_Formula_Chemistry_FormulaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8EC28F3B8FDD0B77DCFF0E /* Pods-Chemistry FormulaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry FormulaTests.debug.xcconfig"; path = "Target Support Files/Pods-Chemistry FormulaTests/Pods-Chemistry FormulaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0E09C15D75C3BBD1718927B /* Pods-Chemistry Formula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry Formula.release.xcconfig"; path = "Target Support Files/Pods-Chemistry Formula/Pods-Chemistry Formula.release.xcconfig"; sourceTree = "<group>"; };
+		BDD0649B1AFF87707A62730E /* Pods-Chemistry Formula-Chemistry FormulaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry Formula-Chemistry FormulaUITests.release.xcconfig"; path = "Target Support Files/Pods-Chemistry Formula-Chemistry FormulaUITests/Pods-Chemistry Formula-Chemistry FormulaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D3B73D5D6807763D5BC30ABB /* Pods-Chemistry Formula-Chemistry FormulaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry Formula-Chemistry FormulaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chemistry Formula-Chemistry FormulaUITests/Pods-Chemistry Formula-Chemistry FormulaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6D1DF6AEA98151522A7C7D /* Pods-Chemistry FormulaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry FormulaTests.release.xcconfig"; path = "Target Support Files/Pods-Chemistry FormulaTests/Pods-Chemistry FormulaTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8DCEAA96F427C01F4FC93EC /* Pods-Chemistry Formula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry Formula.debug.xcconfig"; path = "Target Support Files/Pods-Chemistry Formula/Pods-Chemistry Formula.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6702532BF047D2AA98AA27CB /* Pods_Chemistry_Formula.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143C6A69F6F6732A2A8DD101 /* Pods_Chemistry_FormulaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,42 +145,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A430A174C18417CAAAF0231 /* Pods_Chemistry_Formula_Chemistry_FormulaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15144DF329C8297800D363C5 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				15144DF129C733EF00D363C5 /* Description.swift */,
+				15144DF429C829A400D363C5 /* DescriptionDAL.swift */,
+				15144E0629C8B82900D363C5 /* GasLawDesc.swift */,
+				15144E0829C8B85F00D363C5 /* QuickReference.swift */,
+				15240FB729CA142E002C66AE /* ConceptDesc.swift */,
+				15144E0429C8B81100D363C5 /* MolecularWeight.swift */,
+				1877CB3129E0878500C8C79D /* MolecularCell.swift */,
+				18D080FA29E2D32B00686E92 /* Atom.swift */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		15144E0029C8B66300D363C5 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				15144DFE29C8B65A00D363C5 /* FavouritList.swift */,
+				15144E0229C8B69300D363C5 /* FavouritCell.swift */,
+				15E8E8A929CB1F520090DF88 /* FavouritDAL.swift */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
 		155B951029AE5507002C064C = {
 			isa = PBXGroup;
 			children = (
 				155B951B29AE5507002C064C /* Chemistry Formula */,
 				155B953229AE550A002C064C /* Chemistry FormulaTests */,
 				155B953C29AE550A002C064C /* Chemistry FormulaUITests */,
-				155B951A29AE5507002C064C /* Products */,
+				6D6BFCF1B0BCD3711484E012 /* Pods */,
+				1B8A2F82754554C6EAC23763 /* Frameworks */,
+				15144DEE29C7312300D363C5 /* Chemistry Formula.app */,
+				15144DEF29C7325800D363C5 /* Chemistry FormulaTests.xctest */,
+				15144DF029C7325800D363C5 /* Chemistry FormulaUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		155B951A29AE5507002C064C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				155B951929AE5507002C064C /* Chemistry Formula.app */,
-				155B952F29AE550A002C064C /* Chemistry FormulaTests.xctest */,
-				155B953929AE550A002C064C /* Chemistry FormulaUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		155B951B29AE5507002C064C /* Chemistry Formula */ = {
 			isa = PBXGroup;
 			children = (
+				1877CBB929E11ED100C8C79D /* ChemistryFormula.db */,
+				189E20C529F03A9D0092128C /* Devloper */,
+				1877CB0929E06E8F00C8C79D /* FMDB */,
+				15144E0029C8B66300D363C5 /* Favourite */,
+				15144DF329C8297800D363C5 /* Description */,
+				15BD7A8529B99B5100C3BBD7 /* List */,
+				15BD7A8429B99B3200C3BBD7 /* Main */,
 				155B951C29AE5507002C064C /* AppDelegate.swift */,
 				155B951E29AE5507002C064C /* SceneDelegate.swift */,
-				155B952029AE5507002C064C /* ViewController.swift */,
 				155B952229AE5507002C064C /* Main.storyboard */,
 				155B952529AE5509002C064C /* Assets.xcassets */,
 				155B952729AE5509002C064C /* LaunchScreen.storyboard */,
 				155B952A29AE5509002C064C /* Info.plist */,
+				15E9761129BADAA70027BF91 /* Utility.swift */,
 			);
 			path = "Chemistry Formula";
 			sourceTree = "<group>";
@@ -127,6 +229,79 @@
 			path = "Chemistry FormulaUITests";
 			sourceTree = "<group>";
 		};
+		15BD7A8429B99B3200C3BBD7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				155B952029AE5507002C064C /* ViewController.swift */,
+				15BD7A8229B99A7300C3BBD7 /* CollectionViewCell.swift */,
+				15BD7A8629B99B8800C3BBD7 /* MainDAL.swift */,
+				15E9761529BAF6A30027BF91 /* Topic.swift */,
+				18D080FC29EAA07200686E92 /* PopUpViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		15BD7A8529B99B5100C3BBD7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				15E9761E29BB33730027BF91 /* FormulaList.swift */,
+				15BD7A8029B97BF000C3BBD7 /* TableViewCell.swift */,
+				15E9761C29BB334C0027BF91 /* FormulaDAL.swift */,
+				15E9761A29BB33260027BF91 /* Formula.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		1877CB0929E06E8F00C8C79D /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1877CBA929E1190C00C8C79D /* FMDatabase.h */,
+				1877CBB029E1190D00C8C79D /* FMDatabase.m */,
+				1877CBA829E1190C00C8C79D /* FMDatabaseAdditions.h */,
+				1877CBA729E1190C00C8C79D /* FMDatabaseAdditions.m */,
+				1877CBAD29E1190D00C8C79D /* FMDatabasePool.h */,
+				1877CBB129E1190D00C8C79D /* FMDatabasePool.m */,
+				1877CBAE29E1190D00C8C79D /* FMDatabaseQueue.h */,
+				1877CBAF29E1190D00C8C79D /* FMDatabaseQueue.m */,
+				1877CBAA29E1190C00C8C79D /* FMDB.h */,
+				1877CBAB29E1190C00C8C79D /* FMResultSet.h */,
+				1877CBAC29E1190C00C8C79D /* FMResultSet.m */,
+				1877CBA629E1190C00C8C79D /* Chemistry Formula-Bridging-Header.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		189E20C529F03A9D0092128C /* Devloper */ = {
+			isa = PBXGroup;
+			children = (
+				18D0810029EAABB600686E92 /* DeveloperViewController.swift */,
+			);
+			path = Devloper;
+			sourceTree = "<group>";
+		};
+		1B8A2F82754554C6EAC23763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E4586D5E052675D79B770D0 /* Pods_Chemistry_Formula.framework */,
+				8A2277BEE96CCA8D740C1F0E /* Pods_Chemistry_Formula_Chemistry_FormulaUITests.framework */,
+				46B3C96D870DF7389EFD3F8C /* Pods_Chemistry_FormulaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D6BFCF1B0BCD3711484E012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8DCEAA96F427C01F4FC93EC /* Pods-Chemistry Formula.debug.xcconfig */,
+				B0E09C15D75C3BBD1718927B /* Pods-Chemistry Formula.release.xcconfig */,
+				D3B73D5D6807763D5BC30ABB /* Pods-Chemistry Formula-Chemistry FormulaUITests.debug.xcconfig */,
+				BDD0649B1AFF87707A62730E /* Pods-Chemistry Formula-Chemistry FormulaUITests.release.xcconfig */,
+				AD8EC28F3B8FDD0B77DCFF0E /* Pods-Chemistry FormulaTests.debug.xcconfig */,
+				ED6D1DF6AEA98151522A7C7D /* Pods-Chemistry FormulaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 155B954329AE550A002C064C /* Build configuration list for PBXNativeTarget "Chemistry Formula" */;
 			buildPhases = (
+				4FAC814D86B9E1DC018752C4 /* [CP] Check Pods Manifest.lock */,
 				155B951529AE5507002C064C /* Sources */,
 				155B951629AE5507002C064C /* Frameworks */,
 				155B951729AE5507002C064C /* Resources */,
+				D83A010B0563124AEF8DF899 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,13 +321,14 @@
 			);
 			name = "Chemistry Formula";
 			productName = "Chemistry Formula";
-			productReference = 155B951929AE5507002C064C /* Chemistry Formula.app */;
+			productReference = 15144DEE29C7312300D363C5 /* Chemistry Formula.app */;
 			productType = "com.apple.product-type.application";
 		};
 		155B952E29AE550A002C064C /* Chemistry FormulaTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 155B954629AE550A002C064C /* Build configuration list for PBXNativeTarget "Chemistry FormulaTests" */;
 			buildPhases = (
+				57C9E17016747F95A1A536A5 /* [CP] Check Pods Manifest.lock */,
 				155B952B29AE550A002C064C /* Sources */,
 				155B952C29AE550A002C064C /* Frameworks */,
 				155B952D29AE550A002C064C /* Resources */,
@@ -162,16 +340,18 @@
 			);
 			name = "Chemistry FormulaTests";
 			productName = "Chemistry FormulaTests";
-			productReference = 155B952F29AE550A002C064C /* Chemistry FormulaTests.xctest */;
+			productReference = 15144DEF29C7325800D363C5 /* Chemistry FormulaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		155B953829AE550A002C064C /* Chemistry FormulaUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 155B954929AE550A002C064C /* Build configuration list for PBXNativeTarget "Chemistry FormulaUITests" */;
 			buildPhases = (
+				D94C512FA5BFDDF493C9D594 /* [CP] Check Pods Manifest.lock */,
 				155B953529AE550A002C064C /* Sources */,
 				155B953629AE550A002C064C /* Frameworks */,
 				155B953729AE550A002C064C /* Resources */,
+				F5CF4EB600341F7D576B3050 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,7 +360,7 @@
 			);
 			name = "Chemistry FormulaUITests";
 			productName = "Chemistry FormulaUITests";
-			productReference = 155B953929AE550A002C064C /* Chemistry FormulaUITests.xctest */;
+			productReference = 15144DF029C7325800D363C5 /* Chemistry FormulaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -195,6 +375,7 @@
 				TargetAttributes = {
 					155B951829AE5507002C064C = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1430;
 					};
 					155B952E29AE550A002C064C = {
 						CreatedOnToolsVersion = 14.2;
@@ -215,7 +396,7 @@
 				Base,
 			);
 			mainGroup = 155B951029AE5507002C064C;
-			productRefGroup = 155B951A29AE5507002C064C /* Products */;
+			productRefGroup = 155B951029AE5507002C064C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -232,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				155B952929AE5509002C064C /* LaunchScreen.storyboard in Resources */,
+				1877CBBA29E11ED100C8C79D /* ChemistryFormula.db in Resources */,
 				155B952629AE5509002C064C /* Assets.xcassets in Resources */,
 				155B952429AE5507002C064C /* Main.storyboard in Resources */,
 			);
@@ -253,14 +435,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FAC814D86B9E1DC018752C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chemistry Formula-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C9E17016747F95A1A536A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chemistry FormulaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83A010B0563124AEF8DF899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chemistry Formula/Pods-Chemistry Formula-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chemistry Formula/Pods-Chemistry Formula-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chemistry Formula/Pods-Chemistry Formula-frameworks.sh\"\n";
+		};
+		D94C512FA5BFDDF493C9D594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chemistry Formula-Chemistry FormulaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5CF4EB600341F7D576B3050 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chemistry Formula-Chemistry FormulaUITests/Pods-Chemistry Formula-Chemistry FormulaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chemistry Formula-Chemistry FormulaUITests/Pods-Chemistry Formula-Chemistry FormulaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chemistry Formula-Chemistry FormulaUITests/Pods-Chemistry Formula-Chemistry FormulaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		155B951529AE5507002C064C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E9761229BADAA70027BF91 /* Utility.swift in Sources */,
+				18D080FD29EAA07200686E92 /* PopUpViewCell.swift in Sources */,
+				15E9761629BAF6A30027BF91 /* Topic.swift in Sources */,
+				15E9761D29BB334C0027BF91 /* FormulaDAL.swift in Sources */,
+				15BD7A8129B97BF000C3BBD7 /* TableViewCell.swift in Sources */,
+				15144E0729C8B82900D363C5 /* GasLawDesc.swift in Sources */,
 				155B952129AE5507002C064C /* ViewController.swift in Sources */,
+				1877CBB329E1190D00C8C79D /* FMResultSet.m in Sources */,
+				15BD7A8329B99A7300C3BBD7 /* CollectionViewCell.swift in Sources */,
 				155B951D29AE5507002C064C /* AppDelegate.swift in Sources */,
+				15144DF229C733EF00D363C5 /* Description.swift in Sources */,
+				1877CBB429E1190D00C8C79D /* FMDatabaseQueue.m in Sources */,
+				15144DFF29C8B65A00D363C5 /* FavouritList.swift in Sources */,
+				1877CBB229E1190D00C8C79D /* FMDatabaseAdditions.m in Sources */,
+				1877CBB629E1190D00C8C79D /* FMDatabasePool.m in Sources */,
+				18D0810129EAABB700686E92 /* DeveloperViewController.swift in Sources */,
+				15E8E8AA29CB1F520090DF88 /* FavouritDAL.swift in Sources */,
 				155B951F29AE5507002C064C /* SceneDelegate.swift in Sources */,
+				1877CBB529E1190D00C8C79D /* FMDatabase.m in Sources */,
+				15144E0329C8B69300D363C5 /* FavouritCell.swift in Sources */,
+				15BD7A8729B99B8800C3BBD7 /* MainDAL.swift in Sources */,
+				15144E0529C8B81100D363C5 /* MolecularWeight.swift in Sources */,
+				15144E0929C8B85F00D363C5 /* QuickReference.swift in Sources */,
+				15240FB829CA142E002C66AE /* ConceptDesc.swift in Sources */,
+				15144DF529C829A400D363C5 /* DescriptionDAL.swift in Sources */,
+				15E9761B29BB33260027BF91 /* Formula.swift in Sources */,
+				1877CB3229E0878500C8C79D /* MolecularCell.swift in Sources */,
+				18D080FB29E2D32B00686E92 /* Atom.swift in Sources */,
+				15E9761F29BB33730027BF91 /* FormulaList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +682,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 			};
 			name = Debug;
 		};
@@ -426,15 +738,18 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		155B954429AE550A002C064C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DCEAA96F427C01F4FC93EC /* Pods-Chemistry Formula.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,6 +767,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.new.krutik.Chemistry-Formula";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Chemistry Formula/FMDB/Chemistry Formula-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,9 +776,11 @@
 		};
 		155B954529AE550A002C064C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E09C15D75C3BBD1718927B /* Pods-Chemistry Formula.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,6 +798,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.new.krutik.Chemistry-Formula";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Chemistry Formula/FMDB/Chemistry Formula-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,6 +806,7 @@
 		};
 		155B954729AE550A002C064C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8EC28F3B8FDD0B77DCFF0E /* Pods-Chemistry FormulaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +826,7 @@
 		};
 		155B954829AE550A002C064C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6D1DF6AEA98151522A7C7D /* Pods-Chemistry FormulaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +846,7 @@
 		};
 		155B954A29AE550A002C064C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B73D5D6807763D5BC30ABB /* Pods-Chemistry Formula-Chemistry FormulaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +864,7 @@
 		};
 		155B954B29AE550A002C064C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD0649B1AFF87707A62730E /* Pods-Chemistry Formula-Chemistry FormulaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

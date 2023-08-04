@@ -1,0 +1,6 @@
+framework module Pods_Chemistry_Formula {
+  umbrella header "Pods-Chemistry Formula-umbrella.h"
+
+  export *
+  module * { export * }
+}
